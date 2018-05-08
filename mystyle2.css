@@ -4,7 +4,7 @@
 	a:active{color: black;}
 	a { text-decoration:none }
 header {
-	color: black;
+	color: white;
 	margin: 5px;
 	margin-left: 720px;
 	padding: 5px;
@@ -17,8 +17,8 @@ nav {
 nav ul {
 	list-style: none;
 	text-align: center;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 	padding: 10px 0;
 }
 
