@@ -17,8 +17,8 @@ nav {
 nav ul {
 	list-style: none;
 	text-align: center;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	padding: 10px 0;
 }
 
