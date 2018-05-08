@@ -1,14 +1,16 @@
-	a:link{color: black;}
-	a:visited{color: black;}
-	a:hover{color: black;}
-	a:active{color: black;}
+	a:link{color: white;}
+	a:visited{color: white;}
+	a:hover{color: white;}
+	a:active{color: white;}
 	a { text-decoration:none }
+
 header {
 	color: white;
 	margin: 5px;
 	margin-left: 720px;
 	padding: 5px;
 }
+
 nav {
 	color: red;
 	margin: 10px;
