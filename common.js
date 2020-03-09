@@ -39,7 +39,7 @@ $(function(){
 	//디바이스 체크
 	var UserAgent = navigator.userAgent;
 	if(UserAgent.match(/iPhone|iPod|iPad|iPad2|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
-		top.location.href = "/kr/m/index.html";
+		top.location.href = "index.html";
 	}
 	//skrollr
 	skrollr.init();
