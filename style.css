@@ -42,7 +42,7 @@ html{-ms-touch-action:none;-webkit-touch-action:none;-khtml-touch-action:none;-m
 #header .gnb{overflow:hidden;position:absolute;right:0;top:0}
 #header .gnb ul{overflow:hidden;float:left;position:relative;padding-right:17px}
 #header .gnb ul:after{content:'';display:block;position:absolute;right:0;top:50%;width:1px;height:18px;margin-top:-9px;background:rgba(255,255,255,0.1);vertical-align:top}
-#header .gnb ul li{overflow:hidden;float:left}
+#header .gnb ul li{overflow:hidden;float:left;text-decoration:none}
 #header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#FFF;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
 #header .gnb ul li a:hover{text-decoration:underline}
 #header .gnb #menu .txt{display:inline-block;overflow:hidden;float:left;height:100px;margin:0 15px;color:#FFF;font-size:15px;line-height:100px}
