@@ -1,0 +1,128 @@
+html,
+body {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffffff;
+}
+
+#header {
+    position: fixed;
+    z-index: 1;
+    width: 40%;
+    height: 10%;
+    padding-top: 5px;
+    display: block;
+}
+
+#header #logo {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+#header .IAM {
+    display: block;
+    width: 129.6px;
+    height: 24px;
+    margin: 80px 100px;
+    background-image: url("logo.png");
+    background-size: 129.6px 24px;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#header .logo_text {
+    position: absolute;
+    font-family: "Roboto", "Roboto-midium";
+    font-size: 12px;
+    top: 79px;
+    left: 300px;
+    line-height: 5px;
+    color: #000000;
+}
+
+#wrapper {
+    width: 80%;
+    height: 2000px;
+    float: right;
+}
+
+#nav {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+}
+
+#navarea {
+    position: fixed;
+    top: 165px;
+    left: 860px;
+    z-index: 5;
+    width: 180px;
+    height: 100%;
+    margin-left: -800px;
+}
+
+#navarea .ul {
+    position: relative;
+    display: flex;
+    font-family: "Roboto", "Roboto-midium";
+}
+
+#navarea ul li {
+    list-style: none;
+    font-family: "Roboto", "Roboto-midium";
+}
+
+#navarea ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto", "Roboto-midium";
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #646464;
+}
+
+#navarea ul li a:hover {
+    color: #0a0a0a;
+    font-family: "Roboto", "Roboto-midium";
+    -webkit-text-stroke: 0px #000;
+    transition: 0.2s ease-out;
+    transform: translate(8px, 0px);
+}
+
+#container,
+.sections,
+.section {
+    position: relative;
+    height: 100%;
+}
+
+.section {
+    background-color: #000000;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#section1 {
+    background-color: #ffffff;
+}
+
+#section2 {
+    background-color: #ffffff;
+}
+
+#section3 {
+    background-color: #ffffff;
+}
